@@ -1,0 +1,30 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.cat-emphasis {
+  transition-duration: 500ms;
+}
+
+.cat-emphasis:hover {
+  transform: scale(1.5);
+}
+
+.carousel-cat {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 10%;
+  gap: 2%;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+}
+
+.cat {
+  cursor: pointer;
+}
